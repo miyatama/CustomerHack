@@ -1,0 +1,7 @@
+our $driver = 'mysql';
+our $dbname = 'databasename';
+our $dbhost = 'host';
+our $dbuser = 'username';
+our $dbpassword = 'password';
+
+

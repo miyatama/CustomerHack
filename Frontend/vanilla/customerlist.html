@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>vanilla</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/customerlist.css"></link>
+
+    <script src="../js/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <script src="./js/websockclient.js" type="text/javascript"></script>
+    <script src="./js/customerlist.js" type="text/javascript"></script>
+  </head>
+  <body >
+    <div class="bodypanel">
+      <div id="divMain" class="mainpanel">
+        <h1 class="headtitle">CustomerList</h1>
+        <div id="divCommand" class="commandPanel">
+          <button id="btnReload" class="button commandbutton">Reload</button>
+          <button id="btnRegist" class="button commandbutton">Regist</button>
+          <button id="btnEdit" class="button commandbutton">Edit</button>
+          <button id="btnRemove" class="button commandbutton">Remove</button>
+        </div>
+        <div id="divList" class="listRect">
+          <div id="divListTitle" class="listHeaderRow">
+            <div id="listHeadChoice" class="listheaderColumn choiceColumn">choice</div>
+            <div id="listHeadId" class="listheaderColumn idColumn">id</div>
+            <div id="listHeadName" class="listheaderColumn nameColumn">name</div>
+            <div id="listHeadSex" class="listheaderColumn sexColumn">sex</div>
+            <div id="listHeadZip" class="listheaderColumn zipColumn">zip</div>
+            <div id="listHeadAdddate" class="listheaderColumn adddateColumn">adddate</div>
+            <div id="listHeadModdate" class="listheaderColumn moddateColumn">moddate</div>
+          </div>
+          <div id="divListBody" class="listBody customerListBody">
+            <div id="divListData" class="customerListData">
+              <!--
+              <div class="listDataRow">
+                <div class="listDataColumn choiceColumn">choice</div>
+                <div class="listDataColumn idColumn">id</div>
+                <div class="listDataColumn nameColumn">name</div>
+                <div class="listDataColumn sexColumn">sex</div>
+                <div class="listDataColumn zipColumn">zip</div>
+                <div class="listDataColumn adddateColumn">adddate</div>
+                <div class="listDataColumn moddateColumn">moddate</div>
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
